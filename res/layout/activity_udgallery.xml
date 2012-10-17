@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_p0"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p000" />
+
+        <ImageView
+            android:id="@+id/iv_p1"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p001" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_p2"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p002" />
+
+        <ImageView
+            android:id="@+id/iv_p3"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p003" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_p4"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p004" />
+
+        <ImageView
+            android:id="@+id/iv_p5"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:src="@drawable/p005" />
+    </LinearLayout>
+
+</LinearLayout>
